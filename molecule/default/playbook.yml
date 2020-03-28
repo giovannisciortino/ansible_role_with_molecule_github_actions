@@ -1,0 +1,2 @@
+- name: ansible_role_with_molecule_github_actions
+  roles: ansible_role_with_molecule_github_actions
