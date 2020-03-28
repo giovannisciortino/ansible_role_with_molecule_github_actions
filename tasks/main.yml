@@ -1,4 +1,2 @@
 ---
 # tasks file for ansible_role_with_molecule_github_actions
-- debug:
-    msg: "Hello world"
