@@ -5,5 +5,3 @@
     name: httpd
     state: present
 
-- name: Start service httpd, if not started
-  shell: systemctl start httpd
