@@ -6,9 +6,4 @@
     state: present
 
 - name: Start service httpd, if not started
-  service:
-    name: "{{ item }}"
-    state: started
-    enabled: true
-    with_items:
-      - httpd
+  shell: systemctl start httpd
