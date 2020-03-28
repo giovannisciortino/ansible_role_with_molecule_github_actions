@@ -1,3 +1,4 @@
 - name: ansible_role_with_molecule_github_actions
+  hosts: all
   roles:
     - ansible_role_with_molecule_github_actions
