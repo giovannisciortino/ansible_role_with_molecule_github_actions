@@ -1,2 +1,12 @@
 ---
 # tasks file for ansible_role_with_molecule_github_actions
+- name: example install package
+  package:
+    name: httpd
+
+- name: Start service httpd, if not started
+  service:
+    name: httpd
+    state: started
+    enabled: true
+
