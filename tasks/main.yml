@@ -7,6 +7,8 @@
 
 - name: Start service httpd, if not started
   service:
-    name: httpd
+    name: "{{item}}"
     state: started
     enabled: true
+    with_items:
+      - httpd
